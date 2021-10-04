@@ -13,6 +13,7 @@ const CardContainer = styled.div`
     box-shadow: 0px 0px 10px gray;
     border-radius: 10px;
     transition: box-shadow 0.5s, background-color 2s, color 1s;
+    z-index: 0;
 
     p {
         font-size: 18px;
@@ -54,7 +55,6 @@ function MovieCard({movie, type}){
                 <Poster src={movie_info.poster_url}/>
             </abbr>
             <p>Language: {movie_info.language}</p>
-            {/* <p>Overview: {movie_info.overview}</p> */}
             <p>Rate: {movie_info.rate}/10</p>
             <p>Release date: {movie_info.release_date}</p>
             <Buttons id={movie_id} type={type} liked={liked} blocked={blocked}/>
