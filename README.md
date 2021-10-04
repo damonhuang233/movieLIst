@@ -4,4 +4,4 @@ To run the project, npm install then npm start.
 
 Here is how it looks like:
 
-![homepage](https://github.com/damonhuang233/movieList/blob/main/homepage.png)
+![homepage](https://github.com/damonhuang233/movieList/blob/main/homepage_v2.png)
